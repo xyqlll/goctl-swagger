@@ -65,7 +65,6 @@ func GetOpenApi3Data(formatted []byte) ([]byte, error) {
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Println(string(body))
 
 	return body, nil
 }
